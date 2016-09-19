@@ -1,0 +1,188 @@
+.ape-main-title {
+    font-family: Helvetica;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFF;  
+    background: none repeat scroll 0 0 #2D4754;
+    padding: 10px;
+}
+
+.ape-menu-link,
+.ape-menu-link:visited,
+.ape-menu-link:hover,
+.ape-menu-link:active {
+    font-family: Helvetica;
+    /*font-size: 1.1em;*/
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #2D4754;
+    /* background: none repeat scroll 0 0 #2D4754; */
+    padding: 10px;
+    margin: 10px;
+}
+
+.ape-menu-link:hover {
+    color: #8D8784;
+}
+
+.ape-menu-link:active {
+    color: #7D8784;
+}
+
+.ape-settings tr th {
+	text-align: left;
+	background-color: #DDD;
+}
+
+.ape-settings tr td {
+	border-bottom: dotted black 1px;
+	text-align: right;
+}
+
+.status_msg {
+	border: 3px solid yellow;
+	font-family: Arial narrow;
+    background-color: #fafafa; 
+	padding: 5px;
+}
+
+
+.StashBox
+{
+    border: 1px solid #99CC00;
+    padding: 4px;
+    vertical-align: top;
+    font-size: 12px;
+}
+
+/* this fixes the color of <li> inside treeview */
+.GroupBox li 
+{
+    background-color: #F2FAFF;
+}
+
+.GroupBox
+{
+    background:none repeat scroll 0 0 #F2FAFF;
+    /*border: 1px solid #99CCFF;*/
+    border: 2px solid #AACCCC;
+    padding: 4px;
+    vertical-align: top;
+    font-size: 12px;
+}
+
+fieldset.GroupBox, fieldset.StashBox
+{
+    display: inline;
+    padding: 6px;
+}
+
+.ape-new-server 
+{
+	margin-bottom: 8px;
+}
+
+.GroupBoxLegend
+{
+    padding-bottom: 4px;
+    font-family: Arial narrow;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.icon {
+	border: none;
+}
+
+
+table.catT 
+{ 
+    text-align: center;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 11px;
+    color: #404040;
+    /*width: 600px;*/
+    width: 100%;
+    background-color: #fafafa;
+    border: 1px #6699CC solid;
+    border-collapse: collapse;
+    border-spacing: 0px; 
+}
+
+td.catHed
+{ 
+    border-bottom: 2px solid #6699CC;
+    border-left: 1px solid #6699CC;
+    background-color: #BEC8D1;
+    text-align: left;
+    text-indent: 5px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 11px;
+    color: #404040; 
+}
+
+td.catBod
+{ 
+    border-bottom: 1px solid #9CF;
+    border-top: 0px;
+    border-left: 1px solid #9CF;
+    border-right: 0px;
+    text-align: left;
+    padding: 3px;
+    font-family: Verdana, sans-serif, Arial;
+    font-weight: normal;
+    font-size: 11px;
+    color: #404040;
+    background-color: #fafafa; 
+}
+
+.dragHandle
+{
+    cursor: move;
+    text-decoration: none;
+    color: #404040;
+}
+
+.dragHandle :hover 
+{
+    color: #202020;
+}
+
+.ape-remove-icon {
+	display: none;
+}
+
+/* change width/padding of tabs */
+.ui-tabs .ui-tabs-nav li a {
+    padding: 0.1em 1em;
+}
+
+.droppable-hover {
+	border: 3px solid; 
+}
+
+.ape-dialog {
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+
+
+.ape-dialog-content {
+	border: 3px solid yellow;
+	/*font-family: Arial narrow;*/
+    background-color: #fafafa; 
+	padding: 5px;
+    font-size: 12px;
+}
+
+.column { width: 25%; float: left; padding-bottom: 100px; }
+.portlet { margin: 0 1em 1em 0; }
+.portlet-header { margin: 0.3em; padding-bottom: 4px; padding-left: 0.2em; }
+.portlet-header .ui-icon { float: right; }
+.portlet-content { padding: 0.4em; }
+.ui-sortable-placeholder { border: 1px dotted black; visibility: visible !important; height: 50px !important; }
+.ui-sortable-placeholder * { visibility: hidden; }
+
